@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #000;
+    font-family: Arial, sans-serif;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+
+    width: 100%;
+}
+
+.logo {
+    color: #ff2d55;
+    font-size: 28px;
+}
+
+nav {
+    margin-left: auto;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 30px;
+    font-size: 20px;
+    transition: 0.3s;
+    background-color: hsla(0, 0%, 7%, 0);
+    transition: 0.30s;
+    display: inline-block;
+    margin: 0 0 10m solid #0d0a0a;
+    border: 2px solid #121212;
+    border-radius: 0.1rem;
+    background-size: 10rem
+    
+    
+
+}
+
+nav a:hover {
+    color: #cf0a0a;
+    background-color: hwb(0 13% 31% / 0);
+    border: 2px solid hsla(0, 77%, 45%, 0)
+    
+}
+
+nav a:first-child {
+    color: #ff2d55;
+}
+
+.social {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 30px;
+
+}
+
+.social i {
+    font-size: 25px;
+    color: white;
+    margin: 0 5px;
+    transition: color 0.3s;
+}
+
+.social i:hover {
+    color: #da0808;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    padding: 40px;
+}
+
+.image {
+    flex: 1;
+}
+
+.image img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.text {
+    flex: 1;
+    padding-left: 30px;
+}
+
+.text h1 {
+    font-size: 36px;
+    color: #ff2d55;
+}
+
+.text h3 {
+    font-size: 24px;
+    color: white;
+}
+
+.text p {
+    color: #ccc;
+}
+
+.start {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 30px;
+
+}
+
+.social a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 4rem;
+    height: 4rem;
+    background-color: transparent;
+    border: 0.2rem solid brown;
+    font-size: 2rem;
+    border-radius: 50%;
+    margin: 0.5rem 1.5rem 3rem 0;
+    transition: 0.3s ease;
+    color: hsla(0, 93%, 44%, 0);
+
+}
+
+.social a:hover {
+    color: #00000000;
+    transform: scale(1.3) translateY(-5px);
+    background-color: brown;
+    box-shadow: 0 0 25px rgb(192, 28, 28)
+}
+
+.start{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 20px 30px;
+    border: 2px solid #c91a1a;
+    border-radius: 30px;
+    color: #c91a1a;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+    transition: 0.30s;
+    position: relative
+    ;
+
+}
+
+.start:hover{
+    background: #c91a1a;
+    color: #fff;
+    box-shadow: 0 0 25px #ff3b3b;
+}
+
+@keyframes letterChange {
+    0% { content: 'H'; color: red; }
+    25% { content: 'e'; color: rgb(207, 3, 3); }
+    50% { content: 'l'; color: rgb(189, 0, 0); }
+    75% { content: 'l'; color: rgb(167, 0, 0); }
+    100% { content: 'o'; color: rgb(183, 0, 0); }
+}
+
+h1 {
+    display: inline-block;
+    animation: letterChange 3s infinite;
+}
+
+
